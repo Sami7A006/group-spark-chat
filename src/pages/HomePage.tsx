@@ -6,7 +6,7 @@ import { SearchAndFilter } from "../components/SearchAndFilter";
 import { CreateGroupDialog } from "../components/CreateGroupDialog";
 import { useAuth } from "../contexts/AuthContext";
 
-const Index: React.FC = () => {
+const HomePage: React.FC = () => {
   const { filteredGroups } = useData();
   const { isAuthenticated } = useAuth();
   
@@ -30,4 +30,4 @@ const Index: React.FC = () => {
   );
 };
 
-export default Index;
+export default HomePage;
